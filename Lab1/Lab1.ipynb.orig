@@ -39,7 +39,11 @@
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
+   "execution_count": 19,
+=======
    "execution_count": 2,
+>>>>>>> fd3be43d5b2d143a63b9f54661f2b3c5c4dd3487
    "metadata": {
     "collapsed": false
    },
@@ -69,7 +73,11 @@
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
+   "execution_count": 20,
+=======
    "execution_count": 3,
+>>>>>>> fd3be43d5b2d143a63b9f54661f2b3c5c4dd3487
    "metadata": {
     "collapsed": false
    },
@@ -95,11 +103,35 @@
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
+   "execution_count": 21,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "(array([[ 7.]]), array([[ 1.],\n",
+      "       [ 0.],\n",
+      "       [ 0.]]))\n",
+      "(array([[ 3.]]), array([[  1.06254984e-13],\n",
+      "       [  1.00000000e+00],\n",
+      "       [  8.64209288e-12]]))\n",
+      "(array([[ 3.]]), array([[  1.06254984e-13],\n",
+      "       [  1.00000000e+00],\n",
+      "       [  8.64209288e-12]]))\n"
+     ]
+    }
+   ],
+=======
    "execution_count": 5,
    "metadata": {
     "collapsed": false
    },
    "outputs": [],
+>>>>>>> fd3be43d5b2d143a63b9f54661f2b3c5c4dd3487
    "source": [
     "def power_iteration(A, x=None, max_iter=1000):\n",
     "    if x == None:\n",
@@ -166,7 +198,11 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 18,
+<<<<<<< HEAD
+   "execution_count": 22,
+=======
+   "execution_count": 6,
+>>>>>>> fd3be43d5b2d143a63b9f54661f2b3c5c4dd3487
    "metadata": {
     "collapsed": false
    },
