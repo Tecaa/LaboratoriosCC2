@@ -292,6 +292,7 @@
    "metadata": {},
    "source": [
     "<div id='de4'/>\n",
+<<<<<<< HEAD
     "### 4.- Modificación a #ToDo.\n",
     "#### a) ¿Que debemos modificar?\n",
     "Para lograr que Normalized Simultaneous Iteration sólo nos entregue los k primeros valores y vectores propios sin hacer cálculos de más debemos lograr que $diag((Q' * A) * Q)$ nos entregue sólo k elementos.\n",
@@ -302,6 +303,12 @@
     "La complejidad es la de hacer la factorización QR p veces.\n",
     "$$ p \\frac {2} {3} n^3 = O(pn^3)$$\n",
     "#### c) Implementación"
+=======
+    "### 4.- Modificaci\u00f3n a #ToDo.\n",
+    "#### a) \u00bfQue debemos modificar?\n",
+    "#### b) Complejidad computacional\n",
+    "#### c) Implementaci\u00f3n"
+>>>>>>> 99eeb4faeca93abd444d26b5a1c6d3f35d463223
    ]
   },
   {
