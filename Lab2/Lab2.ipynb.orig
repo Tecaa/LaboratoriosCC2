@@ -531,6 +531,7 @@
    ]
   },
   {
+<<<<<<< HEAD
    "cell_type": "code",
    "execution_count": null,
    "metadata": {
@@ -542,6 +543,8 @@
    ]
   },
   {
+=======
+>>>>>>> 8ef043b6a11f06a9d83e398d6e6e73497d92cc92
    "cell_type": "markdown",
    "metadata": {},
    "source": [
