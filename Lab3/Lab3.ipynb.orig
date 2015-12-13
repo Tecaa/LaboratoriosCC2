@@ -453,9 +453,15 @@
    "source": [
     "#test 1-D\n",
     "y0 = np.array([1])\n",
+<<<<<<< HEAD
     "tf = 4\n",
     "h  = 1\n",
-    "t  = np.linspace(0, tf, (tf/h)+1)\n",
+    "t  = np.linspace(0, tf, tf/h+1)\n",
+=======
+    "yf = 4\n",
+    "h  = 0.1\n",
+    "t  = np.linspace(0, yf, (yf/h)+1)\n",
+>>>>>>> a02b2d9c928ac3b64b6dab9bfc3861bcc77f8363
     "f  = lambda t,y: np.e**t\n",
     "\n",
     "\n",
@@ -468,9 +474,15 @@
     "\n",
     "#test N-D\n",
     "y02 = np.array([1,2])\n",
+<<<<<<< HEAD
     "tf = 4\n",
     "h  = 1\n",
-    "t  = np.linspace(0, tf, (tf/h)+1)\n",
+    "t  = np.linspace(0, tf, tf/h+1)\n",
+=======
+    "yf = 4\n",
+    "h  = 0.001\n",
+    "t  = np.linspace(0, yf, (yf/h)+1)\n",
+>>>>>>> a02b2d9c928ac3b64b6dab9bfc3861bcc77f8363
     "\n",
     "f2 = lambda t,y: np.array([t+y[0], y[1]+y[0]])\n",
     "\n",
